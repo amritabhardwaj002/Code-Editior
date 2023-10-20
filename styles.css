@@ -1,0 +1,35 @@
+.code-editor{
+border: 1px solid #ac1818;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+width: 300px;
+margin: 0 auto;
+}
+.code-toolbar {
+background-color: #341572;
+padding: 5px;
+border-bottom: 1px solid #ddd;
+display: flex;
+justify-content: space-around;
+}
+.code-button {
+padding: 5px 10px;
+cursor: pointer;
+border: none;
+background: none;
+outline: none;
+font-weight: bold;
+&:hover {
+background-color: #ddd;
+}
+}
+.code-content {
+padding: 10px;
+font-family: monospace;
+white-space: pre-wrap;
+}
+.locked {
+    background-color: #f0f0f0;
+    pointer-events: none;
+}
